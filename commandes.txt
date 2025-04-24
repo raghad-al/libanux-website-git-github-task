@@ -1,0 +1,47 @@
+Task 2
+Raghad Al-khaled
+
+1- After create folder , intialize git 
+git ini
+
+2-Create README.md with the text "Git test for the interneship"
+echo "Git test for the interneship" >> README.md
+
+3-Create the file index.html with bare-bones HTML5 scaffold
+nano index.html
+
+4-Stage all files 
+git add .
+
+5-Commint the staged files with text "chore:intial website structure with README and index.html"
+git commit -m "chore:intial website structure with README and index.html"
+
+6-link to github
+git remote add origin <https://github.com/raghad-al/libanux-website-git-github-task>
+
+7-Rename the branch from master to main
+git branch -M main
+
+8-Push the main branch to github
+git push -u origin main
+
+9-Create the file libanux.html with some html code
+nano libanux.html
+
+10-Stage libanux.html
+git add libanux.html
+
+11-Commint the staged file (libanux.html) with text "feat: add libanux.html eith logo and company name"
+git commit -m "feat: add libanux.html eith logo and company name"
+
+12-Push to main branch (with error)
+git push origin main
+
+13-Pull changes from repo to the local
+git pull origin main --rebase
+
+14-Resolve merge or rebase conflicts
+git add .
+
+15-Push changes to main branch
+git push origin main
